@@ -4,4 +4,4 @@ node_modules/
 .env.local
 .DS_Store
 getFileCode.py
-code_extraction.txt
+current_code.txt
