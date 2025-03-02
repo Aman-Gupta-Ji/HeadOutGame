@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { toast } from 'react-toastify';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 import GamePage from './GamePage';

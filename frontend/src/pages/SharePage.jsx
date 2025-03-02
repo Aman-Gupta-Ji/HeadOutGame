@@ -1,11 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef, useCallback } from 'react';
 import { motion } from 'framer-motion';
-import { FiCopy, FiShare2, FiTwitter, FiEdit3 } from 'react-icons/fi';
+import { FiCopy, FiEdit3 } from 'react-icons/fi';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { toast } from 'react-toastify';
 import axios from 'axios';
-import html2canvas from 'html2canvas';
 
 export default function SharePage() {
   const [challengeId, setChallengeId] = useState(null);
@@ -14,24 +13,16 @@ export default function SharePage() {
   const [loading, setLoading] = useState(false);
   const [challenges, setChallenges] = useState([]);
   const [showChallenges, setShowChallenges] = useState(false);
-  const [shareImage, setShareImage] = useState(null);
   
   const navigate = useNavigate();
   const { user, isAuthenticated } = useAuth();
+  const shareCardRef = useRef(null);
   
   const baseUrl = window.location.origin;
   const apiUrl = process.env.REACT_APP_API_URL || 'https://globerotter-backend.onrender.com';
 
-  // Create new challenge on mount
-  useEffect(() => {
-    if (isAuthenticated) {
-      createChallenge();
-      fetchUserChallenges();
-    }
-  }, [isAuthenticated]);
-
   // Create a new challenge
-  const createChallenge = async () => {
+  const createChallenge = useCallback(async () => {
     try {
       setLoading(true);
       const response = await axios.post(
@@ -49,11 +40,6 @@ export default function SharePage() {
         const { challenge_id } = response.data.challenge;
         setChallengeId(challenge_id);
         setShareLink(`${baseUrl}/challenge/${challenge_id}`);
-        
-        // Generate share image after challenge is created
-        setTimeout(() => {
-          generateShareImage();
-        }, 500);
       }
     } catch (error) {
       console.error('Error creating challenge:', error);
@@ -61,10 +47,10 @@ export default function SharePage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [apiUrl, baseUrl]);
 
   // Fetch user's active challenges
-  const fetchUserChallenges = async () => {
+  const fetchUserChallenges = useCallback(async () => {
     try {
       const response = await axios.get(
         `${apiUrl}/api/challenges/user/active`,
@@ -81,7 +67,15 @@ export default function SharePage() {
     } catch (error) {
       console.error('Error fetching challenges:', error);
     }
-  };
+  }, [apiUrl]);
+
+  // Create new challenge on mount
+  useEffect(() => {
+    if (isAuthenticated) {
+      createChallenge();
+      fetchUserChallenges();
+    }
+  }, [isAuthenticated, createChallenge, fetchUserChallenges]);
 
   // Copy share link to clipboard
   const handleCopy = () => {
@@ -91,32 +85,11 @@ export default function SharePage() {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  // Generate share image
-  const generateShareImage = async () => {
-    if (!shareCardRef.current) return;
-    
-    try {
-      const canvas = await html2canvas(shareCardRef.current, {
-        scale: 2,
-        logging: false,
-        useCORS: true,
-        backgroundColor: null
-      });
-      
-      setShareImage(canvas.toDataURL('image/png'));
-    } catch (error) {
-      console.error('Error generating share image:', error);
-    }
-  };
-
   // Share on WhatsApp
   const shareOnWhatsApp = () => {
     const text = `Hey! I challenge you to beat my score in Globetrotter Challenge! Click the link to play: ${shareLink}`;
     window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, '_blank');
   };
-
-  // Reference for the share card element
-  const shareCardRef = useState(null)[1];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-headout-bg to-white p-6">
