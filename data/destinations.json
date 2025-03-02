@@ -70,9 +70,9 @@
     "country": "South Korea",
     "continent": "Asia",
     "clues": [
-      "Famous for both N Seoul Tower and its palaces heritage.",
+      "Famous for both N this city Tower and its palaces heritage.",
       "This city's skyline features the remarkable Bukchon Hanok Village.",
-      "In this Asian destination, travelers can explore N Seoul Tower."
+      "In this Asian destination, travelers can explore N this city Tower."
     ],
     "fun_fact": [
       "N Seoul Tower was designed by a famous architect who never actually visited the city.",
@@ -150,7 +150,7 @@
     "continent": "Europe",
     "clues": [
       "Known worldwide for its beer and the magnificent Old Town Square.",
-      "This city is home to Prague Castle, visited by millions each year.",
+      "This city is home to this city Castle, visited by millions each year.",
       "Known for its beer culture and astronomical clock attractions."
     ],
     "fun_fact": [
@@ -479,7 +479,7 @@
     "clues": [
       "This waterfall city features the iconic Mosi-oa-Tunya.",
       "In this African destination, travelers can explore Mosi-oa-Tunya.",
-      "Located in Africa, this destination offers views of Victoria Falls Bridge."
+      "Located in Africa, this destination offers views of this city Bridge."
     ],
     "fun_fact": [
       "Victoria Falls was originally built around Victoria Falls Bridge, which dates back hundreds of years.",
@@ -852,7 +852,7 @@
     "country": "Singapore",
     "continent": "Asia",
     "clues": [
-      "This capital of Singapore boasts Marina Bay Sands among its attractions.",
+      "This capital of this city boasts Marina Bay Sands among its attractions.",
       "This modern city features the iconic Marina Bay Sands.",
       "This city is home to Gardens by the Bay, visited by millions each year."
     ],
@@ -1024,7 +1024,7 @@
     "clues": [
       "Famous for both Plaza de la Catedral and its vintage cars heritage.",
       "This capital of Cuba boasts Malecon among its attractions.",
-      "Known worldwide for its music and the magnificent Old Havana."
+      "Known worldwide for its music and the magnificent Old this city."
     ],
     "fun_fact": [
       "Havana experiences unusual weather patterns, including vintage cars seasons.",
@@ -1122,7 +1122,7 @@
     "continent": "Africa",
     "clues": [
       "This city is home to Valley of the Kings, visited by millions each year.",
-      "In this African destination, travelers can explore Luxor Temple.",
+      "In this African destination, travelers can explore this city Temple.",
       "Known for its pharaohs culture and pharaohs attractions."
     ],
     "fun_fact": [
@@ -1423,7 +1423,7 @@
     "country": "Canada",
     "continent": "North America",
     "clues": [
-      "This city's skyline features the remarkable Banff National Park.",
+      "This city's skyline features the remarkable this city National Park.",
       "In this North American destination, travelers can explore Lake Louise."
     ],
     "fun_fact": [
@@ -1482,7 +1482,7 @@
     "continent": "Europe",
     "clues": [
       "Located in Europe, this destination offers views of Brandenburg Gate.",
-      "This city's skyline features the remarkable Berlin Wall."
+      "This city's skyline features the remarkable this city Wall."
     ],
     "fun_fact": [
       "Over 90% of the original Brandenburg Gate was constructed without modern technology.",
@@ -1632,7 +1632,7 @@
     "difficulty": "medium"
   },
   {
-    "city": "Istanbul",
+    "city": "Istanbul (European side)",
     "country": "Turkey",
     "continent": "Asia",
     "clues": [

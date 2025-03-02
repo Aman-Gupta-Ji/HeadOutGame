@@ -14,17 +14,14 @@ const Destination = require('../models/Destination');
  * Connect to MongoDB
  */
 async function connectToMongoDB() {
-  try {
-    await mongoose.connect(env.mongodbUri, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-    console.log('Connected to MongoDB');
-    return true;
-  } catch (error) {
-    console.error('MongoDB connection error:', error);
-    return false;
-  }
+    try {
+      await mongoose.connect(env.mongodbUri);
+      console.log('Connected to MongoDB');
+      return true;
+    } catch (error) {
+      console.error('MongoDB connection error:', error);
+      return false;
+    }
 }
 
 /**

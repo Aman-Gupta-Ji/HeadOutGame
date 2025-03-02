@@ -3,6 +3,7 @@
         "generate-data-local": "node backend/scripts/generateDestinationsLocal.js",
         "generate-data": "node backend/scripts/generateDestinations.js",
         "validate-data": "node backend/scripts/validateDestinations.js",
+        "fix-data": "node backend/scripts/fixDestinationData.js",
         "import-data": "node backend/scripts/importToMongoDB.js",
         "setup-data": "npm run generate-data && npm run validate-data && npm run import-data"
     },
