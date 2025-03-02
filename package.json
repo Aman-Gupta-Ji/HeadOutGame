@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "generate-data-local": "node backend/scripts/generateDestinationsLocal.js",
         "generate-data": "node backend/scripts/generateDestinations.js",
         "validate-data": "node backend/scripts/validateDestinations.js",
         "import-data": "node backend/scripts/importToMongoDB.js",

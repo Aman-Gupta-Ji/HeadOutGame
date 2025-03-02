@@ -1,1 +1,1945 @@
-[]
+[
+  {
+    "city": "Paris",
+    "country": "France",
+    "clues": [
+      "This city is home to a famous tower that sparkles every night.",
+      "Known as the 'City of Love' and a hub for fashion and art."
+    ],
+    "fun_fact": [
+      "The Eiffel Tower was supposed to be dismantled after 20 years but was saved because it was useful for radio transmissions!",
+      "Paris has only one stop sign in the entire city—most intersections rely on priority-to-the-right rules."
+    ],
+    "trivia": [
+      "This city is famous for its croissants and macarons. Bon appétit!",
+      "Paris was originally a Roman city called Lutetia."
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "clues": [
+      "This city has the busiest pedestrian crossing in the world.",
+      "You can visit an entire district dedicated to anime, manga, and gaming."
+    ],
+    "fun_fact": [
+      "Tokyo was originally a small fishing village called Edo before becoming the bustling capital it is today!",
+      "More than 14 million people live in Tokyo, making it one of the most populous cities in the world."
+    ],
+    "trivia": [
+      "The city has over 160,000 restaurants, more than any other city in the world.",
+      "Tokyo’s subway system is so efficient that train delays of just a few minutes come with formal apologies."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "Edinburgh",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "clues": [
+      "Located in Europe, this destination offers views of Royal Mile.",
+      "Famous for both Royal Mile and its festivals heritage."
+    ],
+    "fun_fact": [
+      "Edinburgh was originally built around Edinburgh Castle, which dates back hundreds of years.",
+      "Unlike most cities in United Kingdom, Edinburgh has unique laws about Scotland."
+    ],
+    "trivia": [
+      "Famous historical figures including notable medieval experts have lived in Edinburgh.",
+      "Local legend claims that Arthur's Seat was built by ancient visitors from another land."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Seoul",
+    "country": "South Korea",
+    "continent": "Asia",
+    "clues": [
+      "Famous for both N Seoul Tower and its palaces heritage.",
+      "This city's skyline features the remarkable Bukchon Hanok Village.",
+      "In this Asian destination, travelers can explore N Seoul Tower."
+    ],
+    "fun_fact": [
+      "N Seoul Tower was designed by a famous architect who never actually visited the city.",
+      "Seoul was originally built around N Seoul Tower, which dates back hundreds of years."
+    ],
+    "trivia": [
+      "Famous historical figures including notable kimchi experts have lived in Seoul.",
+      "The oldest building in Seoul dates back to a time when palaces was the main industry.",
+      "Seoul is home to over 50 museums, with Gyeongbokgung Palace being the most visited."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Lagos",
+    "country": "Nigeria",
+    "continent": "Africa",
+    "clues": [
+      "This megacity city features the iconic Nike Art Gallery.",
+      "Visitors flock here to experience Nike Art Gallery and the local music atmosphere."
+    ],
+    "fun_fact": [
+      "Unlike most cities in Nigeria, Lagos has unique laws about beaches.",
+      "Lagos has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "Nike Art Gallery contains hidden symbols related to ancient music beliefs.",
+      "Famous historical figures including notable beaches experts have lived in Lagos.",
+      "The oldest building in Lagos dates back to a time when music was the main industry."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "continent": "North America",
+    "clues": [
+      "This city is home to Royal Ontario Museum, visited by millions each year.",
+      "This multicultural city features the iconic Distillery District.",
+      "Known worldwide for its multicultural and the magnificent Distillery District."
+    ],
+    "fun_fact": [
+      "Unlike most cities in Canada, Toronto has unique laws about lakes.",
+      "Over 90% of the original Distillery District was constructed without modern technology.",
+      "CN Tower was nearly destroyed during a major historical event but was saved by locals."
+    ],
+    "trivia": [
+      "CN Tower contains hidden symbols related to ancient lakes beliefs.",
+      "The water surrounding Toronto contains minerals that give it a distinctive maple quality."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Hobart",
+    "country": "Australia",
+    "continent": "Oceania",
+    "clues": [
+      "This capital of Australia boasts MONA among its attractions.",
+      "This art city features the iconic Salamanca Market.",
+      "Known worldwide for its Tasmania and the magnificent Salamanca Market."
+    ],
+    "fun_fact": [
+      "Salamanca Market was designed by a famous architect who never actually visited the city.",
+      "Salamanca Market was nearly destroyed during a major historical event but was saved by locals."
+    ],
+    "trivia": [
+      "The city's public transportation system includes unique features inspired by Tasmania.",
+      "Hobart appears in over 100 films, most notably in scenes featuring Salamanca Market.",
+      "The water surrounding Hobart contains minerals that give it a distinctive Tasmania quality."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "continent": "Europe",
+    "clues": [
+      "Known worldwide for its beer and the magnificent Old Town Square.",
+      "This city is home to Prague Castle, visited by millions each year.",
+      "Known for its beer culture and astronomical clock attractions."
+    ],
+    "fun_fact": [
+      "Over 90% of the original Charles Bridge was constructed without modern technology.",
+      "Prague experiences unusual weather patterns, including medieval seasons.",
+      "Prague has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "The city's public transportation system includes unique features inspired by medieval.",
+      "Every year, Prague hosts a competition related to beer that attracts global participants."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Cusco",
+    "country": "Peru",
+    "continent": "South America",
+    "clues": [
+      "Located in South America, this destination offers views of Plaza de Armas.",
+      "Visitors flock here to experience Sacsayhuaman and the local colonial atmosphere."
+    ],
+    "fun_fact": [
+      "The name \"Cusco\" is derived from ancient words meaning \"colonial Inca\".",
+      "The local cuisine features dishes that combine altitude with Inca flavors.",
+      "Unlike most cities in Peru, Cusco has unique laws about altitude."
+    ],
+    "trivia": [
+      "Local legend claims that San Pedro Market was built by ancient visitors from another land.",
+      "The traditional greeting in Cusco involves gestures related to altitude."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Kathmandu",
+    "country": "Nepal",
+    "continent": "Asia",
+    "clues": [
+      "Known worldwide for its Everest and the magnificent Durbar Square.",
+      "This temples city features the iconic Boudhanath."
+    ],
+    "fun_fact": [
+      "Unlike most cities in Nepal, Kathmandu has unique laws about temples.",
+      "Kathmandu was originally built around Durbar Square, which dates back hundreds of years.",
+      "The local cuisine features dishes that combine temples with mountains flavors."
+    ],
+    "trivia": [
+      "Local legend claims that Swayambhunath was built by ancient visitors from another land.",
+      "The oldest building in Kathmandu dates back to a time when Everest was the main industry.",
+      "The water surrounding Kathmandu contains minerals that give it a distinctive temples quality."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Madrid",
+    "country": "Spain",
+    "continent": "Europe",
+    "clues": [
+      "This capital city features the iconic Royal Palace.",
+      "Located in Europe, this destination offers views of Plaza Mayor.",
+      "Visitors flock here to experience Prado Museum and the local tapas atmosphere."
+    ],
+    "fun_fact": [
+      "Madrid experiences unusual weather patterns, including tapas seasons.",
+      "The city's population can double during the famous art festival held annually.",
+      "The local cuisine features dishes that combine capital with tapas flavors."
+    ],
+    "trivia": [
+      "The city's public transportation system includes unique features inspired by capital.",
+      "Prado Museum contains hidden symbols related to ancient capital beliefs."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Addis Ababa",
+    "country": "Ethiopia",
+    "continent": "Africa",
+    "clues": [
+      "This city is home to Holy Trinity Cathedral, visited by millions each year.",
+      "In this African destination, travelers can explore Entoto Hill."
+    ],
+    "fun_fact": [
+      "Addis Ababa was originally built around Entoto Hill, which dates back hundreds of years.",
+      "Addis Ababa has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "The oldest building in Addis Ababa dates back to a time when ancient was the main industry.",
+      "Addis Ababa appears in over 100 films, most notably in scenes featuring National Museum."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "San Francisco",
+    "country": "USA",
+    "continent": "North America",
+    "clues": [
+      "Famous for both Alcatraz and its bay heritage.",
+      "This capital of USA boasts Golden Gate Bridge among its attractions."
+    ],
+    "fun_fact": [
+      "San Francisco was originally built around Alcatraz, which dates back hundreds of years.",
+      "San Francisco has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "Local legend claims that Golden Gate Bridge was built by ancient visitors from another land.",
+      "The water surrounding San Francisco contains minerals that give it a distinctive tech quality."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Moorea",
+    "country": "French Polynesia",
+    "continent": "Oceania",
+    "clues": [
+      "Known for its tropical culture and tropical attractions.",
+      "This city is home to Magic Mountain, visited by millions each year."
+    ],
+    "fun_fact": [
+      "Temae Beach was designed by a famous architect who never actually visited the city.",
+      "Moorea was originally built around Magic Mountain, which dates back hundreds of years."
+    ],
+    "trivia": [
+      "Moorea is home to over 50 museums, with Belvedere Lookout being the most visited.",
+      "Every year, Moorea hosts a competition related to lagoon that attracts global participants.",
+      "The traditional greeting in Moorea involves gestures related to tropical."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Angkor",
+    "country": "Cambodia",
+    "continent": "Asia",
+    "clues": [
+      "This temples city features the iconic Ta Prohm.",
+      "This city is home to Bayon Temple, visited by millions each year.",
+      "Known for its jungle culture and ancient attractions."
+    ],
+    "fun_fact": [
+      "The name \"Angkor\" is derived from ancient words meaning \"jungle temples\".",
+      "Angkor Wat was nearly destroyed during a major historical event but was saved by locals.",
+      "Angkor Wat was designed by a famous architect who never actually visited the city."
+    ],
+    "trivia": [
+      "The city's public transportation system includes unique features inspired by jungle.",
+      "The water surrounding Angkor contains minerals that give it a distinctive jungle quality.",
+      "Bayon Temple contains hidden symbols related to ancient temples beliefs."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Budapest",
+    "country": "Hungary",
+    "continent": "Europe",
+    "clues": [
+      "This city is home to Fisherman's Bastion, visited by millions each year.",
+      "Known for its empire culture and empire attractions.",
+      "In this Europen destination, travelers can explore Parliament."
+    ],
+    "fun_fact": [
+      "The name \"Budapest\" is derived from ancient words meaning \"Danube Danube\".",
+      "The city's population can double during the famous thermal festival held annually.",
+      "Budapest experiences unusual weather patterns, including thermal seasons."
+    ],
+    "trivia": [
+      "Famous historical figures including notable Danube experts have lived in Budapest.",
+      "Local legend claims that Parliament was built by ancient visitors from another land."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "continent": "South America",
+    "clues": [
+      "This city is home to Recoleta Cemetery, visited by millions each year.",
+      "In this South American destination, travelers can explore Recoleta Cemetery."
+    ],
+    "fun_fact": [
+      "Over 90% of the original Recoleta Cemetery was constructed without modern technology.",
+      "Recoleta Cemetery was nearly destroyed during a major historical event but was saved by locals.",
+      "Recoleta Cemetery was designed by a famous architect who never actually visited the city."
+    ],
+    "trivia": [
+      "The water surrounding Buenos Aires contains minerals that give it a distinctive steak quality.",
+      "The city's public transportation system includes unique features inspired by tango.",
+      "Buenos Aires appears in over 100 films, most notably in scenes featuring La Boca."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "continent": "Africa",
+    "clues": [
+      "This capital of South Africa boasts Robben Island among its attractions.",
+      "Known for its wildlife culture and wildlife attractions."
+    ],
+    "fun_fact": [
+      "Cape Town experiences unusual weather patterns, including wildlife seasons.",
+      "Robben Island was nearly destroyed during a major historical event but was saved by locals.",
+      "Cape Town has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "Cape Town appears in over 100 films, most notably in scenes featuring Table Mountain.",
+      "Every year, Cape Town hosts a competition related to wildlife that attracts global participants."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "continent": "North America",
+    "clues": [
+      "Visitors flock here to experience Zocalo and the local ancient atmosphere.",
+      "This ancient city features the iconic Zocalo."
+    ],
+    "fun_fact": [
+      "Mexico City was originally built around Teotihuacan, which dates back hundreds of years.",
+      "Mexico City has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "The city's population can double during the famous metropolis festival held annually."
+    ],
+    "trivia": [
+      "Local legend claims that Frida Kahlo Museum was built by ancient visitors from another land.",
+      "The water surrounding Mexico City contains minerals that give it a distinctive metropolis quality.",
+      "The traditional greeting in Mexico City involves gestures related to Aztec."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Varanasi",
+    "country": "India",
+    "continent": "Asia",
+    "clues": [
+      "Known worldwide for its spiritual and the magnificent Sarnath.",
+      "This holy city features the iconic Ganges River."
+    ],
+    "fun_fact": [
+      "Over 90% of the original Kashi Vishwanath Temple was constructed without modern technology.",
+      "Varanasi has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "The city's public transportation system includes unique features inspired by ancient.",
+      "The water surrounding Varanasi contains minerals that give it a distinctive holy quality.",
+      "The traditional greeting in Varanasi involves gestures related to spiritual."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Vienna",
+    "country": "Austria",
+    "continent": "Europe",
+    "clues": [
+      "This city is home to St. Stephen's Cathedral, visited by millions each year.",
+      "Known for its coffee culture and imperial attractions."
+    ],
+    "fun_fact": [
+      "The city's population can double during the famous imperial festival held annually.",
+      "Vienna was originally built around Vienna State Opera, which dates back hundreds of years."
+    ],
+    "trivia": [
+      "The water surrounding Vienna contains minerals that give it a distinctive music quality.",
+      "Local legend claims that Schönbrunn Palace was built by ancient visitors from another land."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "clues": [
+      "This city's skyline features the remarkable Sky Tower.",
+      "Famous for both Harbour Bridge and its Maori heritage.",
+      "Known worldwide for its volcanoes and the magnificent Harbour Bridge."
+    ],
+    "fun_fact": [
+      "Auckland experiences unusual weather patterns, including Maori seasons.",
+      "The local cuisine features dishes that combine sailing with Maori flavors."
+    ],
+    "trivia": [
+      "Every year, Auckland hosts a competition related to volcanoes that attracts global participants.",
+      "The city's public transportation system includes unique features inspired by volcanoes."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "continent": "Europe",
+    "clues": [
+      "This city is home to Trinity College, visited by millions each year.",
+      "Known for its pubs culture and music attractions."
+    ],
+    "fun_fact": [
+      "Temple Bar was designed by a famous architect who never actually visited the city.",
+      "The name \"Dublin\" is derived from ancient words meaning \"music literary\"."
+    ],
+    "trivia": [
+      "Dublin is home to over 50 museums, with Trinity College being the most visited.",
+      "Guinness Storehouse contains hidden symbols related to ancient literary beliefs.",
+      "The water surrounding Dublin contains minerals that give it a distinctive music quality."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "continent": "Asia",
+    "clues": [
+      "Known worldwide for its islands and the magnificent Star Ferry.",
+      "In this Asian destination, travelers can explore Victoria Peak."
+    ],
+    "fun_fact": [
+      "Unlike most cities in China, Hong Kong has unique laws about islands.",
+      "Hong Kong has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "Tian Tan Buddha was nearly destroyed during a major historical event but was saved by locals."
+    ],
+    "trivia": [
+      "Hong Kong is home to over 50 museums, with Tian Tan Buddha being the most visited.",
+      "Every year, Hong Kong hosts a competition related to islands that attracts global participants."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Victoria Falls",
+    "country": "Zimbabwe",
+    "continent": "Africa",
+    "clues": [
+      "This waterfall city features the iconic Mosi-oa-Tunya.",
+      "In this African destination, travelers can explore Mosi-oa-Tunya.",
+      "Located in Africa, this destination offers views of Victoria Falls Bridge."
+    ],
+    "fun_fact": [
+      "Victoria Falls was originally built around Victoria Falls Bridge, which dates back hundreds of years.",
+      "Over 90% of the original Devil's Pool was constructed without modern technology.",
+      "The local cuisine features dishes that combine natural wonder with mist flavors."
+    ],
+    "trivia": [
+      "Local legend claims that Mosi-oa-Tunya was built by ancient visitors from another land.",
+      "The oldest building in Victoria Falls dates back to a time when natural wonder was the main industry.",
+      "Victoria Falls appears in over 100 films, most notably in scenes featuring Mosi-oa-Tunya."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Chicago",
+    "country": "USA",
+    "continent": "North America",
+    "clues": [
+      "This capital of USA boasts Millennium Park among its attractions.",
+      "This windy city features the iconic Millennium Park.",
+      "Located in North America, this destination offers views of Willis Tower."
+    ],
+    "fun_fact": [
+      "Chicago was originally built around Millennium Park, which dates back hundreds of years.",
+      "The name \"Chicago\" is derived from ancient words meaning \"deep dish architecture\"."
+    ],
+    "trivia": [
+      "Chicago appears in over 100 films, most notably in scenes featuring Navy Pier.",
+      "Local legend claims that Millennium Park was built by ancient visitors from another land."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "continent": "Oceania",
+    "clues": [
+      "This city is home to Great Ocean Road, visited by millions each year.",
+      "Known for its culture culture and laneways attractions.",
+      "This capital of Australia boasts Federation Square among its attractions."
+    ],
+    "fun_fact": [
+      "Melbourne has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "Melbourne was originally built around Royal Botanical Gardens, which dates back hundreds of years.",
+      "The local cuisine features dishes that combine laneways with laneways flavors."
+    ],
+    "trivia": [
+      "Royal Botanical Gardens contains hidden symbols related to ancient coffee beliefs.",
+      "The oldest building in Melbourne dates back to a time when laneways was the main industry."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "clues": [
+      "This royal city features the iconic Buckingham Palace.",
+      "Located in Europe, this destination offers views of Tower Bridge."
+    ],
+    "fun_fact": [
+      "London has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "The city's population can double during the famous underground festival held annually."
+    ],
+    "trivia": [
+      "Tower Bridge contains hidden symbols related to ancient underground beliefs.",
+      "Every year, London hosts a competition related to underground that attracts global participants."
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "continent": "South America",
+    "clues": [
+      "This wine city features the iconic La Moneda Palace.",
+      "Known worldwide for its modern and the magnificent San Cristobal Hill.",
+      "Famous for both Plaza de Armas and its wine heritage."
+    ],
+    "fun_fact": [
+      "Santiago was originally built around La Moneda Palace, which dates back hundreds of years.",
+      "Plaza de Armas was designed by a famous architect who never actually visited the city.",
+      "Santiago experiences unusual weather patterns, including modern seasons."
+    ],
+    "trivia": [
+      "The oldest building in Santiago dates back to a time when Andes was the main industry.",
+      "The traditional greeting in Santiago involves gestures related to wine.",
+      "Santiago appears in over 100 films, most notably in scenes featuring San Cristobal Hill."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "continent": "Asia",
+    "clues": [
+      "Known for its ancient culture and colonial attractions.",
+      "Known worldwide for its ancient and the magnificent Hoan Kiem Lake.",
+      "This colonial city features the iconic Hoan Kiem Lake."
+    ],
+    "fun_fact": [
+      "The city's population can double during the famous ancient festival held annually.",
+      "The local cuisine features dishes that combine colonial with ancient flavors."
+    ],
+    "trivia": [
+      "The water surrounding Hanoi contains minerals that give it a distinctive street food quality.",
+      "The traditional greeting in Hanoi involves gestures related to street food."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Munich",
+    "country": "Germany",
+    "continent": "Europe",
+    "clues": [
+      "This capital of Germany boasts English Garden among its attractions.",
+      "Known for its Oktoberfest culture and Bavarian attractions."
+    ],
+    "fun_fact": [
+      "Unlike most cities in Germany, Munich has unique laws about Oktoberfest.",
+      "Munich has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "The traditional greeting in Munich involves gestures related to beer.",
+      "The city's public transportation system includes unique features inspired by Oktoberfest.",
+      "Nymphenburg Palace contains hidden symbols related to ancient Bavarian beliefs."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Giza",
+    "country": "Egypt",
+    "continent": "Africa",
+    "clues": [
+      "This wonders city features the iconic Sphinx.",
+      "Known for its ancient culture and wonders attractions.",
+      "Known worldwide for its ancient and the magnificent Sphinx."
+    ],
+    "fun_fact": [
+      "Unlike most cities in Egypt, Giza has unique laws about ancient.",
+      "The name \"Giza\" is derived from ancient words meaning \"wonders wonders\".",
+      "Giza was originally built around Great Pyramid, which dates back hundreds of years."
+    ],
+    "trivia": [
+      "The traditional greeting in Giza involves gestures related to desert.",
+      "Local legend claims that Great Pyramid was built by ancient visitors from another land.",
+      "Giza appears in over 100 films, most notably in scenes featuring Great Pyramid."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Antigua Guatemala",
+    "country": "Guatemala",
+    "continent": "North America",
+    "clues": [
+      "This city is home to Central Plaza, visited by millions each year.",
+      "Known worldwide for its cobblestone and the magnificent Volcan de Agua.",
+      "Known for its cobblestone culture and colonial attractions."
+    ],
+    "fun_fact": [
+      "Antigua Guatemala has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "The local cuisine features dishes that combine colonial with volcanoes flavors.",
+      "Santa Catalina Arch was designed by a famous architect who never actually visited the city."
+    ],
+    "trivia": [
+      "Antigua Guatemala is home to over 50 museums, with Santa Catalina Arch being the most visited.",
+      "The traditional greeting in Antigua Guatemala involves gestures related to volcanoes."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Great Barrier Reef",
+    "country": "Australia",
+    "continent": "Oceania",
+    "clues": [
+      "Visitors flock here to experience Heart Reef and the local world wonder atmosphere.",
+      "This world wonder city features the iconic Whitehaven Beach.",
+      "This capital of Australia boasts Coral Sea among its attractions."
+    ],
+    "fun_fact": [
+      "Great Barrier Reef was originally built around Heart Reef, which dates back hundreds of years.",
+      "The name \"Great Barrier Reef\" is derived from ancient words meaning \"world wonder marine\".",
+      "Heart Reef was nearly destroyed during a major historical event but was saved by locals."
+    ],
+    "trivia": [
+      "Great Barrier Reef is home to over 50 museums, with Heart Reef being the most visited.",
+      "Local legend claims that Coral Sea was built by ancient visitors from another land."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Jerusalem",
+    "country": "Israel",
+    "continent": "Asia",
+    "clues": [
+      "Visitors flock here to experience Church of the Holy Sepulchre and the local holy atmosphere.",
+      "Located in Asia, this destination offers views of Dome of the Rock.",
+      "Known worldwide for its ancient and the magnificent Dome of the Rock."
+    ],
+    "fun_fact": [
+      "The city's population can double during the famous holy festival held annually.",
+      "Jerusalem has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "Jerusalem is home to over 50 museums, with Western Wall being the most visited.",
+      "The water surrounding Jerusalem contains minerals that give it a distinctive holy quality.",
+      "Local legend claims that Western Wall was built by ancient visitors from another land."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Stockholm",
+    "country": "Sweden",
+    "continent": "Europe",
+    "clues": [
+      "Visitors flock here to experience Gamla Stan and the local islands atmosphere.",
+      "In this Europen destination, travelers can explore Vasa Museum.",
+      "This city is home to Vasa Museum, visited by millions each year."
+    ],
+    "fun_fact": [
+      "Stockholm has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "Vasa Museum was nearly destroyed during a major historical event but was saved by locals."
+    ],
+    "trivia": [
+      "Local legend claims that Gamla Stan was built by ancient visitors from another land.",
+      "Stockholm appears in over 100 films, most notably in scenes featuring Vasa Museum."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Iguazu Falls",
+    "country": "Argentina",
+    "continent": "South America",
+    "clues": [
+      "This city is home to Iguazu National Park, visited by millions each year.",
+      "In this South American destination, travelers can explore Helicopter Tours."
+    ],
+    "fun_fact": [
+      "Iguazu Falls experiences unusual weather patterns, including jungle seasons.",
+      "Helicopter Tours was nearly destroyed during a major historical event but was saved by locals.",
+      "The name \"Iguazu Falls\" is derived from ancient words meaning \"jungle waterfall\"."
+    ],
+    "trivia": [
+      "The water surrounding Iguazu Falls contains minerals that give it a distinctive waterfall quality.",
+      "Iguazu Falls is home to over 50 museums, with Helicopter Tours being the most visited.",
+      "Iguazu Falls appears in over 100 films, most notably in scenes featuring Iguazu National Park."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Zanzibar City",
+    "country": "Tanzania",
+    "continent": "Africa",
+    "clues": [
+      "In this African destination, travelers can explore Spice Plantations.",
+      "Famous for both Spice Plantations and its spices heritage.",
+      "This capital of Tanzania boasts Prison Island among its attractions."
+    ],
+    "fun_fact": [
+      "Zanzibar City was originally built around Prison Island, which dates back hundreds of years.",
+      "Zanzibar City experiences unusual weather patterns, including beaches seasons."
+    ],
+    "trivia": [
+      "The traditional greeting in Zanzibar City involves gestures related to spices.",
+      "Every year, Zanzibar City hosts a competition related to spices that attracts global participants."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Oaxaca",
+    "country": "Mexico",
+    "continent": "North America",
+    "clues": [
+      "In this North American destination, travelers can explore Hierve el Agua.",
+      "Known for its indigenous culture and indigenous attractions.",
+      "Famous for both Monte Alban and its crafts heritage."
+    ],
+    "fun_fact": [
+      "Monte Alban was designed by a famous architect who never actually visited the city.",
+      "Over 90% of the original Hierve el Agua was constructed without modern technology.",
+      "Santo Domingo Church was nearly destroyed during a major historical event but was saved by locals."
+    ],
+    "trivia": [
+      "Oaxaca is home to over 50 museums, with Hierve el Agua being the most visited.",
+      "The water surrounding Oaxaca contains minerals that give it a distinctive cuisine quality."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Chiang Mai",
+    "country": "Thailand",
+    "continent": "Asia",
+    "clues": [
+      "Known worldwide for its artisans and the magnificent Old City Temples.",
+      "In this Asian destination, travelers can explore Old City Temples."
+    ],
+    "fun_fact": [
+      "Doi Suthep was nearly destroyed during a major historical event but was saved by locals.",
+      "The name \"Chiang Mai\" is derived from ancient words meaning \"temples temples\".",
+      "The city's population can double during the famous mountains festival held annually."
+    ],
+    "trivia": [
+      "Famous historical figures including notable temples experts have lived in Chiang Mai.",
+      "Chiang Mai appears in over 100 films, most notably in scenes featuring Doi Suthep.",
+      "The traditional greeting in Chiang Mai involves gestures related to temples."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Santorini",
+    "country": "Greece",
+    "continent": "Europe",
+    "clues": [
+      "This sunsets city features the iconic Blue Domes.",
+      "Visitors flock here to experience Blue Domes and the local white atmosphere.",
+      "Famous for both Red Beach and its sunsets heritage."
+    ],
+    "fun_fact": [
+      "Santorini has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "The city's population can double during the famous sunsets festival held annually."
+    ],
+    "trivia": [
+      "Red Beach contains hidden symbols related to ancient sunsets beliefs.",
+      "The water surrounding Santorini contains minerals that give it a distinctive volcanic quality.",
+      "Santorini is home to over 50 museums, with Blue Domes being the most visited."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Vanuatu",
+    "country": "Vanuatu",
+    "continent": "Oceania",
+    "clues": [
+      "Famous for both Blue Holes and its untouched heritage.",
+      "This untouched city features the iconic Mount Yasur."
+    ],
+    "fun_fact": [
+      "Vanuatu has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "Vanuatu was originally built around Blue Holes, which dates back hundreds of years.",
+      "Mount Yasur was designed by a famous architect who never actually visited the city."
+    ],
+    "trivia": [
+      "The water surrounding Vanuatu contains minerals that give it a distinctive tribal quality.",
+      "The traditional greeting in Vanuatu involves gestures related to volcanic.",
+      "Vanuatu is home to over 50 museums, with Mount Yasur being the most visited."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "continent": "Europe",
+    "clues": [
+      "Famous for both Jerónimos Monastery and its hills heritage.",
+      "This hills city features the iconic Jerónimos Monastery."
+    ],
+    "fun_fact": [
+      "Lisbon experiences unusual weather patterns, including hills seasons.",
+      "Unlike most cities in Portugal, Lisbon has unique laws about explorers."
+    ],
+    "trivia": [
+      "The oldest building in Lisbon dates back to a time when explorers was the main industry.",
+      "Local legend claims that Belém Tower was built by ancient visitors from another land.",
+      "The traditional greeting in Lisbon involves gestures related to tiles."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "continent": "Asia",
+    "clues": [
+      "This capital of Singapore boasts Marina Bay Sands among its attractions.",
+      "This modern city features the iconic Marina Bay Sands.",
+      "This city is home to Gardens by the Bay, visited by millions each year."
+    ],
+    "fun_fact": [
+      "The local cuisine features dishes that combine clean with modern flavors.",
+      "Unlike most cities in Singapore, Singapore has unique laws about modern."
+    ],
+    "trivia": [
+      "Famous historical figures including notable multicultural experts have lived in Singapore.",
+      "The oldest building in Singapore dates back to a time when modern was the main industry.",
+      "Marina Bay Sands contains hidden symbols related to ancient multicultural beliefs."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "continent": "Africa",
+    "clues": [
+      "This city is home to Constitution Hill, visited by millions each year.",
+      "Known worldwide for its history and the magnificent Apartheid Museum."
+    ],
+    "fun_fact": [
+      "The city's population can double during the famous history festival held annually.",
+      "Gold Reef City was nearly destroyed during a major historical event but was saved by locals."
+    ],
+    "trivia": [
+      "Local legend claims that Constitution Hill was built by ancient visitors from another land.",
+      "Johannesburg is home to over 50 museums, with Constitution Hill being the most visited.",
+      "Every year, Johannesburg hosts a competition related to urban that attracts global participants."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "New Orleans",
+    "country": "USA",
+    "continent": "North America",
+    "clues": [
+      "Famous for both French Quarter and its jazz heritage.",
+      "This capital of USA boasts Bourbon Street among its attractions.",
+      "This city is home to French Quarter, visited by millions each year."
+    ],
+    "fun_fact": [
+      "The local cuisine features dishes that combine Creole with Mardi Gras flavors.",
+      "Unlike most cities in USA, New Orleans has unique laws about Creole."
+    ],
+    "trivia": [
+      "The traditional greeting in New Orleans involves gestures related to Mardi Gras.",
+      "New Orleans is home to over 50 museums, with Garden District being the most visited.",
+      "Famous historical figures including notable jazz experts have lived in New Orleans."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Rotorua",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "clues": [
+      "Located in Oceania, this destination offers views of Pohutu Geyser.",
+      "This sulphur city features the iconic Pohutu Geyser."
+    ],
+    "fun_fact": [
+      "Rotorua was originally built around Maori Villages, which dates back hundreds of years.",
+      "Rotorua has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "Pohutu Geyser was nearly destroyed during a major historical event but was saved by locals."
+    ],
+    "trivia": [
+      "Every year, Rotorua hosts a competition related to geothermal that attracts global participants.",
+      "Rotorua is home to over 50 museums, with Redwoods being the most visited."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "continent": "Europe",
+    "clues": [
+      "This city's skyline features the remarkable Trevi Fountain.",
+      "Famous for both Colosseum and its ancient heritage."
+    ],
+    "fun_fact": [
+      "Rome was originally built around Colosseum, which dates back hundreds of years.",
+      "Rome has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "The oldest building in Rome dates back to a time when empire was the main industry.",
+      "The water surrounding Rome contains minerals that give it a distinctive pasta quality.",
+      "The city's public transportation system includes unique features inspired by empire."
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "continent": "South America",
+    "clues": [
+      "This city is home to Walled City, visited by millions each year.",
+      "Known worldwide for its colonial and the magnificent Walled City."
+    ],
+    "fun_fact": [
+      "Unlike most cities in Colombia, Cartagena has unique laws about Caribbean.",
+      "Cartagena experiences unusual weather patterns, including colorful seasons."
+    ],
+    "trivia": [
+      "The oldest building in Cartagena dates back to a time when Caribbean was the main industry.",
+      "Local legend claims that Walled City was built by ancient visitors from another land."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Beijing",
+    "country": "China",
+    "continent": "Asia",
+    "clues": [
+      "Famous for both Great Wall and its dynasty heritage.",
+      "This city is home to Forbidden City, visited by millions each year."
+    ],
+    "fun_fact": [
+      "Temple of Heaven was nearly destroyed during a major historical event but was saved by locals.",
+      "The local cuisine features dishes that combine ancient with ancient flavors."
+    ],
+    "trivia": [
+      "The oldest building in Beijing dates back to a time when ancient was the main industry.",
+      "Local legend claims that Temple of Heaven was built by ancient visitors from another land."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "continent": "Europe",
+    "clues": [
+      "Famous for both Duomo and its Medici heritage.",
+      "This city is home to Ponte Vecchio, visited by millions each year."
+    ],
+    "fun_fact": [
+      "Florence was originally built around Ponte Vecchio, which dates back hundreds of years.",
+      "The name \"Florence\" is derived from ancient words meaning \"Medici art\"."
+    ],
+    "trivia": [
+      "The traditional greeting in Florence involves gestures related to art.",
+      "Florence is home to over 50 museums, with Ponte Vecchio being the most visited.",
+      "Famous historical figures including notable Medici experts have lived in Florence."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Tunis",
+    "country": "Tunisia",
+    "continent": "Africa",
+    "clues": [
+      "Located in Africa, this destination offers views of Carthage Ruins.",
+      "Known for its ancient culture and ruins attractions."
+    ],
+    "fun_fact": [
+      "Tunis has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "Medina was nearly destroyed during a major historical event but was saved by locals."
+    ],
+    "trivia": [
+      "Tunis appears in over 100 films, most notably in scenes featuring Bardo Museum.",
+      "The water surrounding Tunis contains minerals that give it a distinctive ruins quality."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Havana",
+    "country": "Cuba",
+    "continent": "North America",
+    "clues": [
+      "Famous for both Plaza de la Catedral and its vintage cars heritage.",
+      "This capital of Cuba boasts Malecon among its attractions.",
+      "Known worldwide for its music and the magnificent Old Havana."
+    ],
+    "fun_fact": [
+      "Havana experiences unusual weather patterns, including vintage cars seasons.",
+      "The local cuisine features dishes that combine vintage cars with colonial flavors.",
+      "Plaza de la Catedral was designed by a famous architect who never actually visited the city."
+    ],
+    "trivia": [
+      "Havana appears in over 100 films, most notably in scenes featuring Plaza de la Catedral.",
+      "Old Havana contains hidden symbols related to ancient music beliefs.",
+      "Havana is home to over 50 museums, with Old Havana being the most visited."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Fiji",
+    "country": "Fiji",
+    "continent": "Oceania",
+    "clues": [
+      "Visitors flock here to experience Garden of the Sleeping Giant and the local friendly atmosphere.",
+      "Known for its coral culture and friendly attractions."
+    ],
+    "fun_fact": [
+      "Sigatoka Sand Dunes was nearly destroyed during a major historical event but was saved by locals.",
+      "The local cuisine features dishes that combine paradise with paradise flavors."
+    ],
+    "trivia": [
+      "The oldest building in Fiji dates back to a time when friendly was the main industry.",
+      "The water surrounding Fiji contains minerals that give it a distinctive coral quality."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Petra",
+    "country": "Jordan",
+    "continent": "Asia",
+    "clues": [
+      "In this Asian destination, travelers can explore Treasury.",
+      "Known for its Nabataean culture and rose city attractions.",
+      "Visitors flock here to experience Treasury and the local rose city atmosphere."
+    ],
+    "fun_fact": [
+      "Unlike most cities in Jordan, Petra has unique laws about Nabataean.",
+      "Petra has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "The water surrounding Petra contains minerals that give it a distinctive Nabataean quality.",
+      "Local legend claims that Monastery was built by ancient visitors from another land."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "continent": "Europe",
+    "clues": [
+      "This city is home to Blue Mosque, visited by millions each year.",
+      "Famous for both Hagia Sophia and its Byzantine heritage."
+    ],
+    "fun_fact": [
+      "Istanbul was originally built around Hagia Sophia, which dates back hundreds of years.",
+      "Hagia Sophia was nearly destroyed during a major historical event but was saved by locals.",
+      "The local cuisine features dishes that combine two continents with Byzantine flavors."
+    ],
+    "trivia": [
+      "Local legend claims that Blue Mosque was built by ancient visitors from another land.",
+      "Blue Mosque contains hidden symbols related to ancient two continents beliefs.",
+      "The oldest building in Istanbul dates back to a time when Ottoman was the main industry."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Galapagos Islands",
+    "country": "Ecuador",
+    "continent": "South America",
+    "clues": [
+      "This city is home to Tortoise Reserve, visited by millions each year.",
+      "Known for its volcanic culture and wildlife attractions.",
+      "This capital of Ecuador boasts Tortoise Reserve among its attractions."
+    ],
+    "fun_fact": [
+      "Galapagos Islands has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "The local cuisine features dishes that combine volcanic with wildlife flavors.",
+      "Unlike most cities in Ecuador, Galapagos Islands has unique laws about wildlife."
+    ],
+    "trivia": [
+      "Local legend claims that Kicker Rock was built by ancient visitors from another land.",
+      "The oldest building in Galapagos Islands dates back to a time when evolution was the main industry.",
+      "Galapagos Islands appears in over 100 films, most notably in scenes featuring Tortoise Reserve."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Luxor",
+    "country": "Egypt",
+    "continent": "Africa",
+    "clues": [
+      "This city is home to Valley of the Kings, visited by millions each year.",
+      "In this African destination, travelers can explore Luxor Temple.",
+      "Known for its pharaohs culture and pharaohs attractions."
+    ],
+    "fun_fact": [
+      "The name \"Luxor\" is derived from ancient words meaning \"temples tombs\".",
+      "Unlike most cities in Egypt, Luxor has unique laws about temples."
+    ],
+    "trivia": [
+      "The oldest building in Luxor dates back to a time when temples was the main industry.",
+      "Luxor Temple contains hidden symbols related to ancient tombs beliefs."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Los Angeles",
+    "country": "USA",
+    "continent": "North America",
+    "clues": [
+      "Known worldwide for its palm trees and the magnificent Griffith Observatory.",
+      "This city's skyline features the remarkable Griffith Observatory."
+    ],
+    "fun_fact": [
+      "Los Angeles was originally built around Griffith Observatory, which dates back hundreds of years.",
+      "The name \"Los Angeles\" is derived from ancient words meaning \"celebrities movies\".",
+      "The city's population can double during the famous movies festival held annually."
+    ],
+    "trivia": [
+      "Local legend claims that Venice Beach was built by ancient visitors from another land.",
+      "Los Angeles appears in over 100 films, most notably in scenes featuring Griffith Observatory."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "continent": "Asia",
+    "clues": [
+      "This city is home to Fushimi Inari Shrine, visited by millions each year.",
+      "Famous for both Arashiyama Bamboo Grove and its temples heritage.",
+      "This geisha city features the iconic Kinkaku-ji."
+    ],
+    "fun_fact": [
+      "Arashiyama Bamboo Grove was nearly destroyed during a major historical event but was saved by locals.",
+      "Unlike most cities in Japan, Kyoto has unique laws about ancient."
+    ],
+    "trivia": [
+      "The oldest building in Kyoto dates back to a time when ancient was the main industry.",
+      "The city's public transportation system includes unique features inspired by ancient."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Zurich",
+    "country": "Switzerland",
+    "continent": "Europe",
+    "clues": [
+      "Famous for both Bahnhofstrasse and its banking heritage.",
+      "This banking city features the iconic Bahnhofstrasse.",
+      "Known for its chocolate culture and banking attractions."
+    ],
+    "fun_fact": [
+      "Over 90% of the original Lake Zurich was constructed without modern technology.",
+      "Zurich has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "The water surrounding Zurich contains minerals that give it a distinctive chocolate quality.",
+      "Local legend claims that Lake Zurich was built by ancient visitors from another land.",
+      "Zurich is home to over 50 museums, with Bahnhofstrasse being the most visited."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Darwin",
+    "country": "Australia",
+    "continent": "Oceania",
+    "clues": [
+      "Famous for both Jumping Crocodile Cruises and its tropical heritage.",
+      "Located in Oceania, this destination offers views of Mindil Beach.",
+      "Known worldwide for its tropical and the magnificent Kakadu National Park."
+    ],
+    "fun_fact": [
+      "The name \"Darwin\" is derived from ancient words meaning \"tropical tropical\".",
+      "Unlike most cities in Australia, Darwin has unique laws about tropical.",
+      "Darwin has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "Darwin is home to over 50 museums, with Jumping Crocodile Cruises being the most visited.",
+      "Local legend claims that Jumping Crocodile Cruises was built by ancient visitors from another land.",
+      "Kakadu National Park contains hidden symbols related to ancient outback beliefs."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "Russia",
+    "continent": "Europe",
+    "clues": [
+      "This canals city features the iconic Hermitage Museum.",
+      "Known for its canals culture and imperial attractions.",
+      "Famous for both Peter and Paul Fortress and its czars heritage."
+    ],
+    "fun_fact": [
+      "Unlike most cities in Russia, St. Petersburg has unique laws about canals.",
+      "St. Petersburg experiences unusual weather patterns, including canals seasons.",
+      "Hermitage Museum was nearly destroyed during a major historical event but was saved by locals."
+    ],
+    "trivia": [
+      "The city's public transportation system includes unique features inspired by imperial.",
+      "St. Petersburg is home to over 50 museums, with Peter and Paul Fortress being the most visited."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Samarkand",
+    "country": "Uzbekistan",
+    "continent": "Asia",
+    "clues": [
+      "This turquoise city features the iconic Shah-i-Zinda.",
+      "Known worldwide for its turquoise and the magnificent Shah-i-Zinda.",
+      "Visitors flock here to experience Shah-i-Zinda and the local silk road atmosphere."
+    ],
+    "fun_fact": [
+      "Unlike most cities in Uzbekistan, Samarkand has unique laws about turquoise.",
+      "Registan was nearly destroyed during a major historical event but was saved by locals.",
+      "Samarkand experiences unusual weather patterns, including turquoise seasons."
+    ],
+    "trivia": [
+      "Every year, Samarkand hosts a competition related to ancient that attracts global participants.",
+      "The oldest building in Samarkand dates back to a time when silk road was the main industry.",
+      "Famous historical figures including notable silk road experts have lived in Samarkand."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Nairobi",
+    "country": "Kenya",
+    "continent": "Africa",
+    "clues": [
+      "Famous for both Karen Blixen Museum and its safari heritage.",
+      "Known for its wildlife culture and safari attractions."
+    ],
+    "fun_fact": [
+      "The name \"Nairobi\" is derived from ancient words meaning \"metropolis safari\".",
+      "Unlike most cities in Kenya, Nairobi has unique laws about wildlife.",
+      "Nairobi experiences unusual weather patterns, including metropolis seasons."
+    ],
+    "trivia": [
+      "Karen Blixen Museum contains hidden symbols related to ancient safari beliefs.",
+      "Famous historical figures including notable wildlife experts have lived in Nairobi.",
+      "The traditional greeting in Nairobi involves gestures related to safari."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Washington D.C.",
+    "country": "USA",
+    "continent": "North America",
+    "clues": [
+      "This city is home to White House, visited by millions each year.",
+      "Known for its capital culture and politics attractions.",
+      "In this North American destination, travelers can explore Lincoln Memorial."
+    ],
+    "fun_fact": [
+      "Unlike most cities in USA, Washington D.C. has unique laws about capital.",
+      "Over 90% of the original Smithsonian was constructed without modern technology."
+    ],
+    "trivia": [
+      "The city's public transportation system includes unique features inspired by monuments.",
+      "Washington D.C. is home to over 50 museums, with White House being the most visited.",
+      "The water surrounding Washington D.C. contains minerals that give it a distinctive politics quality."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Bora Bora",
+    "country": "French Polynesia",
+    "continent": "Oceania",
+    "clues": [
+      "Known for its blue culture and blue attractions.",
+      "This capital of French Polynesia boasts Mount Otemanu among its attractions."
+    ],
+    "fun_fact": [
+      "Lagoon was designed by a famous architect who never actually visited the city.",
+      "The local cuisine features dishes that combine blue with paradise flavors.",
+      "Bora Bora experiences unusual weather patterns, including paradise seasons."
+    ],
+    "trivia": [
+      "The oldest building in Bora Bora dates back to a time when paradise was the main industry.",
+      "Bora Bora is home to over 50 museums, with Lagoon being the most visited.",
+      "Bora Bora appears in over 100 films, most notably in scenes featuring Mount Otemanu."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "continent": "Europe",
+    "clues": [
+      "This city's skyline features the remarkable Little Mermaid.",
+      "Known worldwide for its hygge and the magnificent Tivoli Gardens."
+    ],
+    "fun_fact": [
+      "Unlike most cities in Denmark, Copenhagen has unique laws about hygge.",
+      "Copenhagen was originally built around Nyhavn, which dates back hundreds of years."
+    ],
+    "trivia": [
+      "Local legend claims that Little Mermaid was built by ancient visitors from another land.",
+      "The oldest building in Copenhagen dates back to a time when bicycles was the main industry.",
+      "Famous historical figures including notable bicycles experts have lived in Copenhagen."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Machu Picchu",
+    "country": "Peru",
+    "continent": "South America",
+    "clues": [
+      "This city is home to Incan Citadel, visited by millions each year.",
+      "Famous for both Huayna Picchu and its Inca heritage.",
+      "This ancient city features the iconic Incan Citadel."
+    ],
+    "fun_fact": [
+      "Machu Picchu was originally built around Sun Gate, which dates back hundreds of years.",
+      "Machu Picchu has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "Over 90% of the original Sun Gate was constructed without modern technology."
+    ],
+    "trivia": [
+      "Machu Picchu is home to over 50 museums, with Huayna Picchu being the most visited.",
+      "Every year, Machu Picchu hosts a competition related to ancient that attracts global participants.",
+      "The water surrounding Machu Picchu contains minerals that give it a distinctive Inca quality."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Bali",
+    "country": "Indonesia",
+    "continent": "Asia",
+    "clues": [
+      "In this Asian destination, travelers can explore Uluwatu Temple.",
+      "This city is home to Uluwatu Temple, visited by millions each year.",
+      "Known worldwide for its beaches and the magnificent Tegallalang Rice Terraces."
+    ],
+    "fun_fact": [
+      "Sacred Monkey Forest was nearly destroyed during a major historical event but was saved by locals.",
+      "The city's population can double during the famous beaches festival held annually.",
+      "Bali has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "Local legend claims that Sacred Monkey Forest was built by ancient visitors from another land.",
+      "Bali is home to over 50 museums, with Uluwatu Temple being the most visited.",
+      "Famous historical figures including notable temples experts have lived in Bali."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "continent": "Europe",
+    "clues": [
+      "This capital of Spain boasts Sagrada Familia among its attractions.",
+      "Known for its Gaudi culture and beach attractions.",
+      "Known worldwide for its modernism and the magnificent La Rambla."
+    ],
+    "fun_fact": [
+      "The name \"Barcelona\" is derived from ancient words meaning \"modernism modernism\".",
+      "Over 90% of the original Sagrada Familia was constructed without modern technology.",
+      "The local cuisine features dishes that combine Gaudi with modernism flavors."
+    ],
+    "trivia": [
+      "Sagrada Familia contains hidden symbols related to ancient modernism beliefs.",
+      "The water surrounding Barcelona contains minerals that give it a distinctive Gaudi quality.",
+      "Local legend claims that Sagrada Familia was built by ancient visitors from another land."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Casablanca",
+    "country": "Morocco",
+    "continent": "Africa",
+    "clues": [
+      "In this African destination, travelers can explore Morocco Mall.",
+      "Visitors flock here to experience Old Medina and the local architecture atmosphere.",
+      "This capital of Morocco boasts Hassan II Mosque among its attractions."
+    ],
+    "fun_fact": [
+      "Unlike most cities in Morocco, Casablanca has unique laws about architecture.",
+      "Morocco Mall was nearly destroyed during a major historical event but was saved by locals.",
+      "Casablanca has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "Casablanca is home to over 50 museums, with Old Medina being the most visited.",
+      "The traditional greeting in Casablanca involves gestures related to coastal.",
+      "The city's public transportation system includes unique features inspired by architecture."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Banff",
+    "country": "Canada",
+    "continent": "North America",
+    "clues": [
+      "This city's skyline features the remarkable Banff National Park.",
+      "In this North American destination, travelers can explore Lake Louise."
+    ],
+    "fun_fact": [
+      "Banff was originally built around Lake Louise, which dates back hundreds of years.",
+      "Banff has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "Local legend claims that Moraine Lake was built by ancient visitors from another land.",
+      "Famous historical figures including notable turquoise experts have lived in Banff.",
+      "The city's public transportation system includes unique features inspired by turquoise."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "continent": "Oceania",
+    "clues": [
+      "Visitors flock here to experience Bondi Beach and the local harbour atmosphere.",
+      "In this Oceanian destination, travelers can explore Bondi Beach.",
+      "This city's skyline features the remarkable Opera House."
+    ],
+    "fun_fact": [
+      "Sydney was originally built around Opera House, which dates back hundreds of years.",
+      "Sydney has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "The city's population can double during the famous beaches festival held annually."
+    ],
+    "trivia": [
+      "Sydney is home to over 50 museums, with Harbour Bridge being the most visited.",
+      "The traditional greeting in Sydney involves gestures related to koalas."
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "continent": "Asia",
+    "clues": [
+      "This skyline city features the iconic The Bund.",
+      "Located in Asia, this destination offers views of Oriental Pearl Tower."
+    ],
+    "fun_fact": [
+      "Oriental Pearl Tower was designed by a famous architect who never actually visited the city.",
+      "Shanghai was originally built around Oriental Pearl Tower, which dates back hundreds of years.",
+      "The name \"Shanghai\" is derived from ancient words meaning \"finance colonial\"."
+    ],
+    "trivia": [
+      "Local legend claims that Oriental Pearl Tower was built by ancient visitors from another land.",
+      "The oldest building in Shanghai dates back to a time when skyline was the main industry."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "continent": "Europe",
+    "clues": [
+      "Located in Europe, this destination offers views of Brandenburg Gate.",
+      "This city's skyline features the remarkable Berlin Wall."
+    ],
+    "fun_fact": [
+      "Over 90% of the original Brandenburg Gate was constructed without modern technology.",
+      "The local cuisine features dishes that combine rebirth with history flavors."
+    ],
+    "trivia": [
+      "Berlin Wall contains hidden symbols related to ancient history beliefs.",
+      "Berlin is home to over 50 museums, with Reichstag being the most visited."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "La Paz",
+    "country": "Bolivia",
+    "continent": "South America",
+    "clues": [
+      "In this South American destination, travelers can explore Witches' Market.",
+      "Famous for both Witches' Market and its altitude heritage.",
+      "Known for its altitude culture and markets attractions."
+    ],
+    "fun_fact": [
+      "La Paz has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "Witches' Market was designed by a famous architect who never actually visited the city.",
+      "The city's population can double during the famous altitude festival held annually."
+    ],
+    "trivia": [
+      "The city's public transportation system includes unique features inspired by Andes.",
+      "La Paz is home to over 50 museums, with Valle de la Luna being the most visited."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Marrakech",
+    "country": "Morocco",
+    "continent": "Africa",
+    "clues": [
+      "Famous for both Jemaa el-Fnaa and its desert heritage.",
+      "Visitors flock here to experience Jemaa el-Fnaa and the local spices atmosphere."
+    ],
+    "fun_fact": [
+      "Bahia Palace was nearly destroyed during a major historical event but was saved by locals.",
+      "The city's population can double during the famous markets festival held annually.",
+      "Unlike most cities in Morocco, Marrakech has unique laws about markets."
+    ],
+    "trivia": [
+      "Marrakech is home to over 50 museums, with Bahia Palace being the most visited.",
+      "The water surrounding Marrakech contains minerals that give it a distinctive markets quality.",
+      "Medina contains hidden symbols related to ancient spices beliefs."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Cancun",
+    "country": "Mexico",
+    "continent": "North America",
+    "clues": [
+      "Known for its Mayan culture and resorts attractions.",
+      "Located in North America, this destination offers views of Chichen Itza."
+    ],
+    "fun_fact": [
+      "The city's population can double during the famous resorts festival held annually.",
+      "The local cuisine features dishes that combine resorts with Caribbean flavors.",
+      "Cancun has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "Every year, Cancun hosts a competition related to Caribbean that attracts global participants.",
+      "The oldest building in Cancun dates back to a time when Caribbean was the main industry.",
+      "The water surrounding Cancun contains minerals that give it a distinctive resorts quality."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "continent": "Asia",
+    "clues": [
+      "This street food city features the iconic Wat Arun.",
+      "This city is home to Grand Palace, visited by millions each year.",
+      "This capital of Thailand boasts Chatuchak Market among its attractions."
+    ],
+    "fun_fact": [
+      "Grand Palace was nearly destroyed during a major historical event but was saved by locals.",
+      "Over 90% of the original Grand Palace was constructed without modern technology."
+    ],
+    "trivia": [
+      "The water surrounding Bangkok contains minerals that give it a distinctive canals quality.",
+      "Local legend claims that Chatuchak Market was built by ancient visitors from another land."
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "city": "Athens",
+    "country": "Greece",
+    "continent": "Europe",
+    "clues": [
+      "In this Europen destination, travelers can explore Acropolis.",
+      "Known for its philosophy culture and ancient attractions."
+    ],
+    "fun_fact": [
+      "The name \"Athens\" is derived from ancient words meaning \"philosophy democracy\".",
+      "Athens has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "Every year, Athens hosts a competition related to philosophy that attracts global participants.",
+      "Ancient Agora contains hidden symbols related to ancient ancient beliefs.",
+      "The city's public transportation system includes unique features inspired by ancient."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Christchurch",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "clues": [
+      "This city's skyline features the remarkable Botanic Gardens.",
+      "Visitors flock here to experience Cardboard Cathedral and the local rebuild atmosphere.",
+      "This city is home to Cardboard Cathedral, visited by millions each year."
+    ],
+    "fun_fact": [
+      "Christchurch was originally built around Avon River, which dates back hundreds of years.",
+      "The name \"Christchurch\" is derived from ancient words meaning \"English garden city\".",
+      "Over 90% of the original Botanic Gardens was constructed without modern technology."
+    ],
+    "trivia": [
+      "The city's public transportation system includes unique features inspired by rebuild.",
+      "Famous historical figures including notable English experts have lived in Christchurch."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "continent": "Europe",
+    "clues": [
+      "This city is home to Van Gogh Museum, visited by millions each year.",
+      "Known for its bicycles culture and bicycles attractions."
+    ],
+    "fun_fact": [
+      "Anne Frank House was nearly destroyed during a major historical event but was saved by locals.",
+      "Amsterdam was originally built around Canals, which dates back hundreds of years.",
+      "Amsterdam experiences unusual weather patterns, including tulips seasons."
+    ],
+    "trivia": [
+      "Every year, Amsterdam hosts a competition related to windmills that attracts global participants.",
+      "The city's public transportation system includes unique features inspired by bicycles."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "continent": "Asia",
+    "clues": [
+      "This city is home to Grand Bazaar, visited by millions each year.",
+      "Known worldwide for its Ottoman and the magnificent Blue Mosque.",
+      "In this Asian destination, travelers can explore Hagia Sophia."
+    ],
+    "fun_fact": [
+      "Istanbul was originally built around Grand Bazaar, which dates back hundreds of years.",
+      "Grand Bazaar was designed by a famous architect who never actually visited the city."
+    ],
+    "trivia": [
+      "The city's public transportation system includes unique features inspired by Ottoman.",
+      "Local legend claims that Grand Bazaar was built by ancient visitors from another land.",
+      "The traditional greeting in Istanbul involves gestures related to Byzantine."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Dakar",
+    "country": "Senegal",
+    "continent": "Africa",
+    "clues": [
+      "Known for its music culture and westernmost attractions.",
+      "This city is home to Pink Lake, visited by millions each year."
+    ],
+    "fun_fact": [
+      "Pink Lake was nearly destroyed during a major historical event but was saved by locals.",
+      "The name \"Dakar\" is derived from ancient words meaning \"westernmost colonial\".",
+      "African Renaissance Monument was designed by a famous architect who never actually visited the city."
+    ],
+    "trivia": [
+      "Dakar appears in over 100 films, most notably in scenes featuring African Renaissance Monument.",
+      "Goree Island contains hidden symbols related to ancient colonial beliefs."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "continent": "North America",
+    "clues": [
+      "This city is home to Granville Island, visited by millions each year.",
+      "This mountains city features the iconic Stanley Park."
+    ],
+    "fun_fact": [
+      "Granville Island was designed by a famous architect who never actually visited the city.",
+      "The city's population can double during the famous outdoors festival held annually.",
+      "Vancouver experiences unusual weather patterns, including mountains seasons."
+    ],
+    "trivia": [
+      "Local legend claims that Capilano Bridge was built by ancient visitors from another land.",
+      "The city's public transportation system includes unique features inspired by mountains."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Uluru",
+    "country": "Australia",
+    "continent": "Oceania",
+    "clues": [
+      "This city is home to Ayers Rock, visited by millions each year.",
+      "This outback city features the iconic Cultural Centre.",
+      "Visitors flock here to experience Kata Tjuta and the local red atmosphere."
+    ],
+    "fun_fact": [
+      "Uluru was originally built around Cultural Centre, which dates back hundreds of years.",
+      "Uluru experiences unusual weather patterns, including red seasons."
+    ],
+    "trivia": [
+      "The oldest building in Uluru dates back to a time when outback was the main industry.",
+      "The water surrounding Uluru contains minerals that give it a distinctive outback quality.",
+      "The traditional greeting in Uluru involves gestures related to outback."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "continent": "Europe",
+    "clues": [
+      "In this Europen destination, travelers can explore Hallgrimskirkja.",
+      "This city is home to Harpa Concert Hall, visited by millions each year."
+    ],
+    "fun_fact": [
+      "The name \"Reykjavik\" is derived from ancient words meaning \"geothermal geothermal\".",
+      "Reykjavik was originally built around Hallgrimskirkja, which dates back hundreds of years.",
+      "The city's population can double during the famous geothermal festival held annually."
+    ],
+    "trivia": [
+      "Reykjavik appears in over 100 films, most notably in scenes featuring Hallgrimskirkja.",
+      "The water surrounding Reykjavik contains minerals that give it a distinctive midnight sun quality.",
+      "The city's public transportation system includes unique features inspired by northern lights."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "continent": "South America",
+    "clues": [
+      "This city is home to Sugarloaf Mountain, visited by millions each year.",
+      "Known for its beaches culture and beaches attractions.",
+      "Located in South America, this destination offers views of Christ the Redeemer."
+    ],
+    "fun_fact": [
+      "The city's population can double during the famous samba festival held annually.",
+      "Unlike most cities in Brazil, Rio de Janeiro has unique laws about beaches."
+    ],
+    "trivia": [
+      "The city's public transportation system includes unique features inspired by beaches.",
+      "Rio de Janeiro appears in over 100 films, most notably in scenes featuring Sugarloaf Mountain."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "continent": "Asia",
+    "clues": [
+      "Known worldwide for its monks and the magnificent Royal Palace.",
+      "This city's skyline features the remarkable Royal Palace.",
+      "This monks city features the iconic Royal Palace."
+    ],
+    "fun_fact": [
+      "Luang Prabang was originally built around Mount Phousi, which dates back hundreds of years.",
+      "Luang Prabang has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s."
+    ],
+    "trivia": [
+      "The oldest building in Luang Prabang dates back to a time when French was the main industry.",
+      "The city's public transportation system includes unique features inspired by Buddhist.",
+      "The traditional greeting in Luang Prabang involves gestures related to monks."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Brussels",
+    "country": "Belgium",
+    "continent": "Europe",
+    "clues": [
+      "Known worldwide for its waffles and the magnificent Atomium.",
+      "Visitors flock here to experience Grand Place and the local chocolate atmosphere."
+    ],
+    "fun_fact": [
+      "Atomium was nearly destroyed during a major historical event but was saved by locals.",
+      "Brussels was originally built around Manneken Pis, which dates back hundreds of years."
+    ],
+    "trivia": [
+      "The traditional greeting in Brussels involves gestures related to chocolate.",
+      "Local legend claims that Grand Place was built by ancient visitors from another land.",
+      "Brussels is home to over 50 museums, with Grand Place being the most visited."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Cairo",
+    "country": "Egypt",
+    "continent": "Africa",
+    "clues": [
+      "This city is home to Sphinx, visited by millions each year.",
+      "Known for its pharaohs culture and desert attractions."
+    ],
+    "fun_fact": [
+      "Pyramids was designed by a famous architect who never actually visited the city.",
+      "The local cuisine features dishes that combine ancient with pharaohs flavors.",
+      "Over 90% of the original Nile River was constructed without modern technology."
+    ],
+    "trivia": [
+      "Cairo is home to over 50 museums, with Sphinx being the most visited.",
+      "Every year, Cairo hosts a competition related to ancient that attracts global participants.",
+      "The water surrounding Cairo contains minerals that give it a distinctive ancient quality."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "continent": "North America",
+    "clues": [
+      "This city is home to Chateau Frontenac, visited by millions each year.",
+      "Famous for both Chateau Frontenac and its historic heritage."
+    ],
+    "fun_fact": [
+      "Quebec City experiences unusual weather patterns, including historic seasons.",
+      "Quebec City was originally built around Chateau Frontenac, which dates back hundreds of years.",
+      "The name \"Quebec City\" is derived from ancient words meaning \"French walled\"."
+    ],
+    "trivia": [
+      "Quebec City is home to over 50 museums, with Old Quebec being the most visited.",
+      "The water surrounding Quebec City contains minerals that give it a distinctive walled quality."
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "city": "Tonga",
+    "country": "Tonga",
+    "continent": "Oceania",
+    "clues": [
+      "This city's skyline features the remarkable Ha'amonga 'a Maui.",
+      "This city is home to Mapu'a 'a Vaea Blowholes, visited by millions each year."
+    ],
+    "fun_fact": [
+      "Over 90% of the original Mapu'a 'a Vaea Blowholes was constructed without modern technology.",
+      "The city's population can double during the famous kingdom festival held annually."
+    ],
+    "trivia": [
+      "The oldest building in Tonga dates back to a time when Polynesian was the main industry.",
+      "The city's public transportation system includes unique features inspired by kingdom."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "continent": "Asia",
+    "clues": [
+      "This city is home to Burj Khalifa, visited by millions each year.",
+      "Known for its tallest culture and desert attractions."
+    ],
+    "fun_fact": [
+      "Dubai has sister cities in over 20 countries, with the oldest relationship dating back to the 1800s.",
+      "Dubai experiences unusual weather patterns, including desert seasons.",
+      "Dubai was originally built around Palm Jumeirah, which dates back hundreds of years."
+    ],
+    "trivia": [
+      "Local legend claims that Burj Khalifa was built by ancient visitors from another land.",
+      "Dubai is home to over 50 museums, with Burj Khalifa being the most visited.",
+      "The traditional greeting in Dubai involves gestures related to desert."
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "Croatia",
+    "continent": "Europe",
+    "clues": [
+      "This city's skyline features the remarkable Old Town.",
+      "Located in Europe, this destination offers views of City Walls.",
+      "In this Europen destination, travelers can explore Lovrijenac Fortress."
+    ],
+    "fun_fact": [
+      "Over 90% of the original Lovrijenac Fortress was constructed without modern technology.",
+      "City Walls was nearly destroyed during a major historical event but was saved by locals.",
+      "Unlike most cities in Croatia, Dubrovnik has unique laws about Adriatic."
+    ],
+    "trivia": [
+      "Lovrijenac Fortress contains hidden symbols related to ancient coastal beliefs.",
+      "Every year, Dubrovnik hosts a competition related to coastal that attracts global participants."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Quito",
+    "country": "Ecuador",
+    "continent": "South America",
+    "clues": [
+      "Located in South America, this destination offers views of TelefériQo.",
+      "Known worldwide for its colonial and the magnificent Historic Center."
+    ],
+    "fun_fact": [
+      "Quito was originally built around Historic Center, which dates back hundreds of years.",
+      "Quito experiences unusual weather patterns, including colonial seasons."
+    ],
+    "trivia": [
+      "The water surrounding Quito contains minerals that give it a distinctive equator quality.",
+      "Quito is home to over 50 museums, with Historic Center being the most visited.",
+      "The oldest building in Quito dates back to a time when colonial was the main industry."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Kigali",
+    "country": "Rwanda",
+    "continent": "Africa",
+    "clues": [
+      "This city is home to Kimironko Market, visited by millions each year.",
+      "In this African destination, travelers can explore Kimironko Market.",
+      "Known for its cleanliness culture and hills attractions."
+    ],
+    "fun_fact": [
+      "Over 90% of the original Genocide Memorial was constructed without modern technology.",
+      "The local cuisine features dishes that combine cleanliness with cleanliness flavors."
+    ],
+    "trivia": [
+      "Every year, Kigali hosts a competition related to cleanliness that attracts global participants.",
+      "Local legend claims that Inema Arts Center was built by ancient visitors from another land."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "city": "Las Vegas",
+    "country": "USA",
+    "continent": "North America",
+    "clues": [
+      "In this North American destination, travelers can explore Fremont Street.",
+      "This entertainment city features the iconic Bellagio Fountains.",
+      "This city is home to Fremont Street, visited by millions each year."
+    ],
+    "fun_fact": [
+      "The name \"Las Vegas\" is derived from ancient words meaning \"desert casinos\".",
+      "Fremont Street was nearly destroyed during a major historical event but was saved by locals."
+    ],
+    "trivia": [
+      "Every year, Las Vegas hosts a competition related to entertainment that attracts global participants.",
+      "Famous historical figures including notable desert experts have lived in Las Vegas.",
+      "Local legend claims that The Strip was built by ancient visitors from another land."
+    ],
+    "difficulty": "hard"
+  }
+]
