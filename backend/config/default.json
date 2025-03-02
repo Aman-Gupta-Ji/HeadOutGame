@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://aman_ji:Taylor13@cluster0.mongodb.net/globetrotter?retryWrites=true&w=majority",
+    "jwtSecret": "your_jwt_secret_key"
+  }

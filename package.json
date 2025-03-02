@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "generate-data": "node backend/scripts/generateDestinations.js",
+        "validate-data": "node backend/scripts/validateDestinations.js",
+        "import-data": "node backend/scripts/importToMongoDB.js",
+        "setup-data": "npm run generate-data && npm run validate-data && npm run import-data"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "fs": "^0.0.1-security",
+        "mongoose": "^8.11.0",
+        "openai": "^4.86.1",
+        "path": "^0.12.7"
+    }
+}
