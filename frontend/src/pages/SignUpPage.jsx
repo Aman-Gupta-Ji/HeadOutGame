@@ -6,6 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { useAuth } from '../context/AuthContext';
+import { ENDPOINTS } from '../config/api';
 
 export default function SignupPage() {
   const [showPassword, setShowPassword] = useState(false);
@@ -35,8 +36,7 @@ export default function SignupPage() {
       setLoading(true);
       setError('');
 
-      const baseUrl = process.env.REACT_APP_API_URL || 'https://globerotter-backend.onrender.com';
-      const response = await axios.post(`${baseUrl}/api/auth/signup`, {
+      const response = await axios.post(ENDPOINTS.SIGNUP, {
         username: data.name,
         email: data.email,
         password: data.password

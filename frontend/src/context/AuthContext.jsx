@@ -1,6 +1,7 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
+import { ENDPOINTS } from '../config/api';
 
 const AuthContext = createContext();
 
@@ -9,8 +10,6 @@ export function AuthProvider({ children }) {
   const [userName, setUserName] = useState('');
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
-
-  const API_URL = process.env.REACT_APP_API_URL || 'https://globerotter-backend.onrender.com';
 
   // Check if user is already authenticated on mount
   useEffect(() => {
@@ -24,7 +23,7 @@ export function AuthProvider({ children }) {
         // If token exists, try to get user data
         if (token) {
           try {
-            const response = await axios.get(`${API_URL}/api/user`, {
+            const response = await axios.get(ENDPOINTS.USER, {
               headers: {
                 'Authorization': `Bearer ${token}`
               }
@@ -57,7 +56,7 @@ export function AuthProvider({ children }) {
     };
 
     checkAuthStatus();
-  }, [API_URL]);
+  }, []);
 
   // Login function
   const login = (token, username, userData = {}) => {
@@ -81,7 +80,7 @@ export function AuthProvider({ children }) {
       
       if (token) {
         // Notify the server about logout (optional)
-        await axios.post(`${API_URL}/api/auth/logout`, {}, {
+        await axios.post(ENDPOINTS.LOGOUT, {}, {
           headers: {
             'Authorization': `Bearer ${token}`
           }
@@ -110,7 +109,7 @@ export function AuthProvider({ children }) {
         throw new Error("Authentication required");
       }
       
-      const response = await axios.put(`${API_URL}/api/user`, userData, {
+      const response = await axios.put(ENDPOINTS.USER, userData, {
         headers: {
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'application/json'

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Confetti from './Confetti';
 import axios from 'axios';
+import { ENDPOINTS } from '../config/api';
 
 export default function GameCard({ id, clues, options, onGuess }) {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -19,7 +20,7 @@ export default function GameCard({ id, clues, options, onGuess }) {
     try {
       // Send the user's answer to the server
       const response = await axios.post(
-        `${process.env.REACT_APP_API_URL || 'https://globerotter-backend.onrender.com'}/api/game/check-answers`,
+        ENDPOINTS.CHECK_ANSWERS,
         {
           id,
           answer: userGuess,
@@ -161,9 +162,6 @@ export default function GameCard({ id, clues, options, onGuess }) {
                 {fact}
               </p>
             </div>
-
-            {/* Confetti Animation */}
-            {isCorrect && <Confetti />}
           </motion.div>
         )}
       </AnimatePresence>

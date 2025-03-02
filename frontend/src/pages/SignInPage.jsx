@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import axios from 'axios';
@@ -21,6 +21,10 @@ export default function LoginPage() {
     formState: { errors },
   } = useForm({
     resolver: zodResolver(loginSchema),
+    defaultValues: {
+      email: '',
+      password: ''
+    }
   });
 
   const onSubmit = async (data) => {
@@ -47,7 +51,7 @@ export default function LoginPage() {
         toast.success('Login successful!');
         
         // Redirect to the page they were trying to access, or home
-        const from = location.state?.from?.pathname || '/';
+        const from = location.state?.from || '/';
         navigate(from);
       }
     } catch (error) {

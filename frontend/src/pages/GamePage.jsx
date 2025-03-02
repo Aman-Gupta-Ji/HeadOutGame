@@ -7,6 +7,7 @@ import GameHeader from '../components/GameHeader';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { motion } from 'framer-motion';
+import { ENDPOINTS } from '../config/api';
 
 export default function GamePage({ isChallenge = false, challengerId = null }) {
   const navigate = useNavigate();
@@ -21,7 +22,6 @@ export default function GamePage({ isChallenge = false, challengerId = null }) {
   const [challengerScore, setChallengerScore] = useState(null);
   
   const totalQuestions = 10; // Fixed number of questions per game
-  const apiUrl = process.env.REACT_APP_API_URL || 'https://globerotter-backend.onrender.com';
 
   const handleGuess = useCallback((isCorrect) => {
     if (isCorrect) {
@@ -50,13 +50,14 @@ export default function GamePage({ isChallenge = false, challengerId = null }) {
       
       if (!token) {
         toast.error('Authentication required');
+        navigate('/signin');
         return;
       }
       
       // If this is a challenge, fetch challenger's score
       if (isChallenge && challengerId) {
         try {
-          const userResponse = await axios.get(`${apiUrl}/api/user/${challengerId}`, {
+          const userResponse = await axios.get(`${ENDPOINTS.USER}/${challengerId}`, {
             headers: { 'Authorization': `Bearer ${token}` }
           });
           
@@ -69,13 +70,13 @@ export default function GamePage({ isChallenge = false, challengerId = null }) {
       }
       
       // Get questions for the game
-      const response = await axios.get(`${apiUrl}/api/game/questions`, {
+      const response = await axios.get(ENDPOINTS.QUESTIONS, {
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${token}`,
         },
         params: {
-          count: totalQuestions // Request specific number of questions
+          count: totalQuestions
         }
       });
       
@@ -90,7 +91,7 @@ export default function GamePage({ isChallenge = false, challengerId = null }) {
     } finally {
       setIsLoading(false);
     }
-  }, [apiUrl, isChallenge, challengerId]);
+  }, [isChallenge, challengerId, navigate]);
 
   const resetGame = useCallback(() => {
     setCurrentQuestion(0);
@@ -107,7 +108,7 @@ export default function GamePage({ isChallenge = false, challengerId = null }) {
     
     // Clean up function
     return () => {
-      // Cancel any pending requests
+      // Cancel any pending requests if needed
     };
   }, [getQuestions]);
 
