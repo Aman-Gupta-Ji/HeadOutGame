@@ -1,145 +1,148 @@
-# Simplified README.md for Current State
+# 🌎 Globetrotter Challenge
 
-Here's a simplified README focused only on the current state of the project (data generation and MongoDB setup):
+A full-stack travel destination guessing game where users are presented with cryptic clues about famous places and must guess the location.
 
-```markdown
-# Globetrotter Challenge
+## 🚀 Features
 
-A travel destination guessing game where users are presented with cryptic clues about famous places and must guess the location.
+- **Engaging Gameplay:** Test your geography knowledge with cryptic clues about destinations around the world
+- **AI-Generated Content:** 100+ destinations with unique clues, facts, and trivia
+- **Visual Feedback:** Confetti animations for correct answers with fun facts revealed
+- **Challenge Friends:** Create unique challenge links to share via WhatsApp
+- **Leaderboards:** Compete with other players globally
+- **Responsive Design:** Play on any device with a beautiful, intuitive interface
 
-## 🌟 Current Progress
+## 🛠️ Tech Stack
 
-This repository contains the initial phase of the Globetrotter Challenge project, focusing on data generation and database setup. The core game functionality and frontend are upcoming features.
+### Backend
+- **Node.js & Express:** Server framework
+- **MongoDB:** Database for storing destinations, users, and challenges
+- **OpenAI API:** Used for generating high-quality destination content
+- **JWT Auth:** Secure user authentication
 
-## 🛠️ Tech Stack (Current)
+### Frontend
+- **React.js:** Frontend framework
+- **Tailwind CSS:** Styling with custom Headout theme
+- **Framer Motion:** Smooth animations and transitions
+- **React Router:** Client-side routing
 
-- **Database**: MongoDB
-- **Data Generation**: Custom Node.js scripts with template-based generation
-- **Tools**: Mongoose for MongoDB object modeling
+## 🖥️ Screenshots
+
+![Gameplay](screenshots/gameplay.png)
+![Challenge](screenshots/challenge.png)
+![Leaderboard](screenshots/leaderboard.png)
 
 ## 📊 Data Generation System
 
-The current implementation includes a comprehensive data generation system that:
+The game features a comprehensive data generation system that:
 
 - Creates 100+ travel destinations across all continents
-- Generates cryptic clues, fun facts, and trivia for each destination
-- Ensures diverse geographic representation
+- Utilizes OpenAI API to generate realistic and engaging content
 - Assigns appropriate difficulty levels (easy, medium, hard)
+- Ensures data quality through validation and cleanup scripts
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-
-- Node.js (v14+)
+- Node.js (v18+)
 - MongoDB (local installation or Atlas connection)
+- npm or yarn
 
-### Installation
+### Installation & Setup
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/globetrotter.git
-   cd globetrotter
+   ```bash
+   git clone https://github.com/yourusername/globetrotter-challenge.git
+   cd globetrotter-challenge
    ```
 
 2. Install dependencies:
-   ```
-   npm install mongoose dotenv fs path
-   ```
-
-3. Create a `.env` file in the project root with your MongoDB connection string:
-   ```
-   MONGODB_URI=mongodb://localhost:27017/globetrotter
+   ```bash
+   npm run install-all
    ```
 
-### Data Generation Instructions
-
-The repository includes several scripts for generating and managing destination data:
-
-1. **Generate destination data**: Creates 100+ destinations with clues, facts, and trivia
+3. Create a `.env` file in the project root with:
    ```
-   npm run generate-data-local
-   ```
-
-2. **Fix data issues**: Validates and corrects data quality issues
-   ```
-   npm run fix-data
+   MONGODB_URI=your_mongodb_connection_string
+   OPENAI_API_KEY=your_openai_api_key
+   JWT_SECRET=your_jwt_secret
+   JWT_EXPIRES=7d
    ```
 
-3. **Validate the dataset**: Checks for errors and warnings in the data
-   ```
-   npm run validate-data
-   ```
-
-4. **Import to MongoDB**: Imports the validated data into MongoDB
-   ```
-   npm run import-data
-   ```
-
-5. **Complete data pipeline**: Runs all steps in sequence
-   ```
+4. Generate destination data:
+   ```bash
    npm run setup-data
    ```
 
-### Data Structure
+5. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-Each destination in the dataset contains:
+6. The application will be available at:
+   - Frontend: `http://localhost:3000`
+   - Backend API: `http://localhost:5000`
 
-```json
-{
-  "city": "City Name",
-  "country": "Country Name",
-  "continent": "Continent",
-  "clues": [
-    "First cryptic clue about the destination.",
-    "Second cryptic clue about the destination."
-  ],
-  "fun_fact": [
-    "First fun fact about the destination.",
-    "Second fun fact about the destination."
-  ],
-  "trivia": [
-    "First trivia item about the destination.",
-    "Second trivia item about the destination."
-  ],
-  "difficulty": "easy|medium|hard"
-}
+## 🧪 Testing
+
+```bash
+# Run backend tests
+npm test
+
+# Run frontend tests
+cd frontend && npm test
 ```
 
-## 📁 Project Structure (Current)
+## 🚢 Deployment
+
+The application is ready for deployment on platforms like Heroku, Vercel, or Railway:
+
+```bash
+# Build frontend for production
+npm run build
+
+# Start production server
+npm start
+```
+
+## 📁 Project Structure
 
 ```
 globetrotter/
-│
-├── backend/                  # Backend code
-│   ├── config/               # Configuration files
-│   │   ├── db.js             # MongoDB connection
-│   │   └── env.js            # Environment variables
-│   │
-│   ├── models/               # MongoDB schemas
-│   │   └── Destination.js    # Destination model
-│   │
-│   └── scripts/              # Data scripts
-│       ├── generateDestinationsLocal.js  # Data generation
-│       ├── fixDestinationData.js         # Data correction
-│       ├── validateDestinations.js       # Data validation
-│       └── importToMongoDB.js            # Database import
-│
-├── data/                     # Generated data
-│   ├── starter_destinations.json   # Initial example data
-│   └── destinations.json           # Generated dataset
-│
-├── .env                      # Environment variables
-└── package.json              # Project dependencies
+├── backend/                # Backend code
+│   ├── config/             # Configuration files
+│   ├── controllers/        # Route controllers
+│   ├── middlewares/        # Express middlewares
+│   ├── models/             # Mongoose schemas
+│   ├── routes/             # API routes
+│   └── scripts/            # Data generation scripts
+├── frontend/               # React frontend
+│   ├── public/             # Static files
+│   └── src/                # React components & logic
+│       ├── components/     # Reusable components
+│       ├── context/        # Context providers
+│       ├── pages/          # Page components
+│       ├── routes/         # Route definitions
+│       └── schemas/        # Validation schemas
+├── data/                   # Generated data
+├── server.js               # Express server entry point
+└── package.json            # Project dependencies
 ```
 
-## 🔮 Next Steps
+## 🤝 Contributing
 
-- Implement Express.js server and API endpoints
-- Create game mechanics and logic
-- Develop frontend UI
-- Add user management and social features
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
+
+## 🙏 Acknowledgements
+
+- [OpenAI](https://openai.com/) - For AI content generation
+- [Headout](https://www.headout.com/) - For design inspiration
+- [Tailwind CSS](https://tailwindcss.com/) - For styling
+- [React Icons](https://react-icons.github.io/react-icons/) - For UI icons

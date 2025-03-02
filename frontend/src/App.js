@@ -1,18 +1,19 @@
 import { Routes, Route } from 'react-router-dom';
-import PrivateRoute from '../../frontend/src/routes/PrivateRoute';
-import LandingPage from '../../frontend/src/pages/LandingPage';
-import GamePage from '../../frontend/src/pages/GamePage';
-import SharePage from '../../frontend/src/pages/SharePage';
-import SignUpPage from '../../frontend/src/pages/SignUpPage';
-import LoginPage from '../../frontend/src/pages/SignInPage';
-import { AuthProvider } from '../../frontend/src/context/AuthContext';
-import Header from '../../frontend/src/components/Header';
+import PrivateRoute from './routes/PrivateRoute';
+import LandingPage from './pages/LandingPage';
+import GamePage from './pages/GamePage';
+import SharePage from './pages/SharePage';
+import SignUpPage from './pages/SignUpPage';
+import LoginPage from './pages/SignInPage';
+import { AuthProvider } from './context/AuthContext';
+import Header from './components/Header';
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
-import Leaderboard from '../../frontend/src/pages/LeaderBoardPage';
-import AboutPage from '../../frontend/src/pages/AboutPage';
-import ProfilePage from '../../frontend/src/pages/ProfilePage';
-import NotFoundPage from '../../frontend/src/pages/NotFoundPage';
+import Leaderboard from './pages/LeaderBoardPage';
+import AboutPage from './pages/AboutPage';
+import ProfilePage from './pages/ProfilePage';
+import ChallengePage from './pages/ChallengePage';
+import NotFoundPage from './pages/NotFoundPage';
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
             <Route path="/signin" element={<LoginPage />} />
             <Route path='/leaderboard' element={<Leaderboard/>} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/challenge/:challengeId" element={<ChallengePage />} />
             
             {/* Protected Routes */}
             <Route element={<PrivateRoute />}>

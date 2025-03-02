@@ -39,6 +39,17 @@ const DestinationSchema = new mongoose.Schema({
   date_added: {
     type: Date,
     default: Date.now
+  },
+  image_url: {
+    type: String,
+    default: null
+  },
+  coordinates: {
+    type: {
+      latitude: Number,
+      longitude: Number
+    },
+    default: null
   }
 });
 
@@ -49,5 +60,11 @@ function arrayMinLength(val) {
 
 // Create a compound index for efficient lookups
 DestinationSchema.index({ city: 1, country: 1 }, { unique: true });
+
+// Create index for difficulty-based queries
+DestinationSchema.index({ difficulty: 1 });
+
+// Create index for geographic queries
+DestinationSchema.index({ continent: 1 });
 
 module.exports = mongoose.model('Destination', DestinationSchema);

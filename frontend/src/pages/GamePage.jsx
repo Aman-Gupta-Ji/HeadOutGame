@@ -1,12 +1,15 @@
 import { useEffect, useState, useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 import GameCard from '../components/GameCard';
 import Confetti from '../components/Confetti';
 import GameOverModal from '../components/GameOverModal';
 import GameHeader from '../components/GameHeader';
 import axios from 'axios';
 import { toast } from 'react-toastify';
+import { motion } from 'framer-motion';
 
-export default function GamePage() {
+export default function GamePage({ isChallenge = false, challengerId = null }) {
+  const navigate = useNavigate();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showConfetti, setShowConfetti] = useState(false);
@@ -15,7 +18,10 @@ export default function GamePage() {
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [incorrectAnswers, setIncorrectAnswers] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
-  const totalQuestions = questions.length;
+  const [challengerScore, setChallengerScore] = useState(null);
+  
+  const totalQuestions = 10; // Fixed number of questions per game
+  const apiUrl = process.env.REACT_APP_API_URL || 'https://globerotter-backend.onrender.com';
 
   const handleGuess = useCallback((isCorrect) => {
     if (isCorrect) {
@@ -47,12 +53,30 @@ export default function GamePage() {
         return;
       }
       
-      const baseUrl = process.env.REACT_APP_API_URL || 'https://globerotter-backend.onrender.com';
-      const response = await axios.get(`${baseUrl}/api/game/questions`, {
+      // If this is a challenge, fetch challenger's score
+      if (isChallenge && challengerId) {
+        try {
+          const userResponse = await axios.get(`${apiUrl}/api/user/${challengerId}`, {
+            headers: { 'Authorization': `Bearer ${token}` }
+          });
+          
+          if (userResponse.data) {
+            setChallengerScore(userResponse.data.score || 0);
+          }
+        } catch (error) {
+          console.error("Error fetching challenger score:", error);
+        }
+      }
+      
+      // Get questions for the game
+      const response = await axios.get(`${apiUrl}/api/game/questions`, {
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${token}`,
         },
+        params: {
+          count: totalQuestions // Request specific number of questions
+        }
       });
       
       if (response.data && Array.isArray(response.data)) {
@@ -66,7 +90,7 @@ export default function GamePage() {
     } finally {
       setIsLoading(false);
     }
-  }, []);
+  }, [apiUrl, isChallenge, challengerId]);
 
   const resetGame = useCallback(() => {
     setCurrentQuestion(0);
@@ -127,19 +151,24 @@ export default function GamePage() {
           isPerfect={score === totalQuestions * 10}
           score={score}
           totalScore={totalQuestions * 10}
+          challengerScore={challengerScore}
+          isChallenge={isChallenge}
           onRestart={resetGame}
-          onShare={() => {
-            const message = score === totalQuestions * 10
-              ? `I got a perfect score in Globetrotter! Can you beat my ${score} points? 🌍 ${window.location.origin}`
-              : `I scored ${score} points in Globetrotter! Try to beat me: ${window.location.origin}`;
-
-            window.open(
-              `https://wa.me/?text=${encodeURIComponent(message)}`,
-              '_blank'
-            );
-          }}
+          onShare={() => navigate('/share', { state: { score } })}
         />
       )}
+      
+      {isChallenge && challengerScore !== null && (
+        <motion.div 
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="max-w-2xl mx-auto mb-4 p-3 bg-white rounded-lg shadow-sm flex items-center justify-between"
+        >
+          <span className="text-sm text-gray-600">Challenge Mode</span>
+          <span className="font-medium">Challenger's Score: <span className="text-headout-purple">{challengerScore}</span></span>
+        </motion.div>
+      )}
+      
       <div className="max-w-2xl mx-auto">
         {/* Combined Header */}
         <GameHeader

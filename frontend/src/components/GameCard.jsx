@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import Confetti from './Confetti';
 import axios from 'axios';
 
@@ -9,6 +9,7 @@ export default function GameCard({ id, clues, options, onGuess }) {
   const [isCorrect, setIsCorrect] = useState(null);
   const [fact, setFact] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [revealedClues, setRevealedClues] = useState(1); // Start with 1 clue revealed
 
   // Handle user's answer selection
   const handleGuess = async (userGuess) => {
@@ -43,6 +44,7 @@ export default function GameCard({ id, clues, options, onGuess }) {
       setTimeout(() => {
         setSelectedAnswer(null);
         setShowFeedback(false);
+        setRevealedClues(1); // Reset clues for next question
       }, 2500);
     } catch (error) {
       console.error('Error checking answer:', error);
@@ -50,6 +52,17 @@ export default function GameCard({ id, clues, options, onGuess }) {
       setIsLoading(false);
     }
   };
+
+  // Reveal additional clue after delay if player hasn't answered yet
+  useEffect(() => {
+    if (!selectedAnswer && revealedClues < clues.length) {
+      const timer = setTimeout(() => {
+        setRevealedClues(prev => Math.min(prev + 1, clues.length));
+      }, 12000); // Reveal next clue after 12 seconds
+      
+      return () => clearTimeout(timer);
+    }
+  }, [revealedClues, selectedAnswer, clues.length]);
 
   return (
     <div className="max-w-md mx-auto bg-white rounded-xl p-6 shadow-lg">
@@ -60,12 +73,30 @@ export default function GameCard({ id, clues, options, onGuess }) {
           <span>Clues</span>
         </h2>
         <ul className="space-y-2">
-          {clues.map((clue, index) => (
-            <li key={index} className="text-gray-600 italic p-3 bg-headout-bg rounded-lg">
+          {clues.slice(0, revealedClues).map((clue, index) => (
+            <motion.li 
+              key={index} 
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-gray-600 italic p-3 bg-headout-bg rounded-lg"
+            >
               "{clue}"
-            </li>
+            </motion.li>
           ))}
         </ul>
+        
+        {/* Clue Indicator */}
+        {revealedClues < clues.length && !selectedAnswer && (
+          <div className="mt-3 text-sm text-gray-500 flex items-center">
+            <motion.div 
+              className="w-2 h-2 bg-headout-purple/70 rounded-full mr-2" 
+              animate={{ opacity: [0.5, 1, 0.5] }}
+              transition={{ duration: 2, repeat: Infinity }}
+            />
+            Next clue loading...
+          </div>
+        )}
       </div>
 
       {/* Answer Options */}
@@ -86,41 +117,56 @@ export default function GameCard({ id, clues, options, onGuess }) {
             disabled={selectedAnswer !== null || isLoading}
           >
             {option}
+            
+            {/* Animated feedback icons */}
+            {selectedAnswer === option && (
+              <motion.span 
+                className="float-right"
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
+                {isCorrect ? '✓' : '✗'}
+              </motion.span>
+            )}
           </motion.button>
         ))}
       </div>
 
       {/* Feedback Section */}
-      {showFeedback && (
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="mt-4 p-4 rounded-lg bg-headout-bg"
-        >
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-2xl">
-              {isCorrect ? '🎉' : '😢'}
-            </span>
-            <p className="font-bold text-headout-purple">
-              {isCorrect ? 'Correct! Well done!' : 'Oops! Try again!'}
-            </p>
-          </div>
-
-          {/* Fun Fact */}
-          <div className="space-y-2">
-            <div className="flex items-center gap-2 text-sm text-headout-purple">
-              <span className="font-semibold">📚 Did You Know?</span>
-              <div className="flex-1 border-t border-dashed border-headout-purple/30"></div>
+      <AnimatePresence>
+        {showFeedback && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 10 }}
+            className="mt-4 p-4 rounded-lg bg-headout-bg"
+          >
+            <div className="flex items-center gap-2 mb-2">
+              <span className="text-2xl">
+                {isCorrect ? '🎉' : '😢'}
+              </span>
+              <p className="font-bold text-headout-purple">
+                {isCorrect ? 'Correct! Well done!' : 'Oops! Try again!'}
+              </p>
             </div>
-            <p className="text-gray-700 leading-relaxed p-3 bg-white rounded-lg border border-headout-purple/10">
-              {fact}
-            </p>
-          </div>
 
-          {/* Confetti Animation */}
-          {isCorrect && <Confetti />}
-        </motion.div>
-      )}
+            {/* Fun Fact */}
+            <div className="space-y-2">
+              <div className="flex items-center gap-2 text-sm text-headout-purple">
+                <span className="font-semibold">📚 Did You Know?</span>
+                <div className="flex-1 border-t border-dashed border-headout-purple/30"></div>
+              </div>
+              <p className="text-gray-700 leading-relaxed p-3 bg-white rounded-lg border border-headout-purple/10">
+                {fact}
+              </p>
+            </div>
+
+            {/* Confetti Animation */}
+            {isCorrect && <Confetti />}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

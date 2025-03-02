@@ -12,6 +12,7 @@ export default function Confetti({ colors = ['#8000FF', '#9933FF', '#6600CC', '#
       recycle={false}
       gravity={0.2}
       colors={colors}
+      tweenDuration={5000}
     />
   );
 }
